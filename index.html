@@ -34,6 +34,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
+    <!-- SWIPER -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script defer src="./js/main.js"></script>
   </head>
   <body>
@@ -327,7 +334,7 @@
                       <li>스타벅스 카드</li>
                       <li>마이 스타벅스 리워드</li>
                       <li>온라인</li>
-                      <li>2017 스타벅스 플래너</li>
+                      <li>2024 스타벅스 플래너</li>
                     </ul>
                   </li>
                   <li>
@@ -370,5 +377,156 @@
         </div>
       </div>
     </header>
+
+    <!-- VISUAL -->
+    <section class="visual">
+      <div class="inner">
+        <div class="title fade-in">
+          <img
+            src="./images/visual_title.png"
+            alt="STARBUCKS DELIGHTFUL START TO THE YEARS"
+          />
+          <a href="javascript:void(0)" class="btn btn--brown"> 자세히 보기 </a>
+        </div>
+        <div class="fade-in">
+          <img
+            src="./images/visual_cup1.png"
+            alt="NEW OATMEAL LATTE"
+            class="cup1 image"
+          />
+          <img
+            src="./images/visual_cup1_text.png"
+            alt="오트밀 라떼"
+            class="cup1 text"
+          />
+        </div>
+        <div class="fade-in">
+          <img
+            src="./images/visual_cup2.png"
+            alt="NEW STARBUCKS CARAMEL CRUMBLE MOCHA"
+            class="cup2 image"
+          />
+          <img
+            src="./images/visual_cup2_text.png"
+            alt="카라멜 크럼블 모카"
+            class="cup2 text"
+          />
+        </div>
+        <div class="fade-in">
+          <img src="./images/visual_spoon.png" alt="Spoon" class="spoon" />
+        </div>
+      </div>
+    </section>
+
+    <section class="notice">
+      <div class="notice-line">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="inner">
+          <div class="inner__left">
+            <h2>공지사항</h2>
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)"
+                    >크리스마스 & 연말연시 스타벅스 매장 영업시간 변경 안내</a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)"
+                    >[당첨자 발표] 2024 스타벅스 플래너 영수증 이벤트</a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)"
+                    >스타벅스커피 코리아 애플리케이션 버전 업데이트 안내</a
+                  >
+                </div>
+                <div class="swiper-slide">
+                  <a href="javascript:void(0)"
+                    >[당첨자 발표] 뉴이어 전자영수증 이벤트</a
+                  >
+                </div>
+              </div>
+            </div>
+            <a href="javascript:void(0)" class="notice-line__more">
+              <span class="material-symbols-outlined">add_circle</span>
+            </a>
+          </div>
+          <div class="inner__right">
+            <h2>스타벅스 프로모션</h2>
+            <div class="toggle-promotion">
+              <span class="material-symbols-outlined"> upload </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="promotion">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./images/promotion_slide1.jpg"
+                alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!"
+              />
+              <a href="javascript:void(0)" class="btn">자세히 보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/promotion_slide2.jpg"
+                alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!"
+              />
+              <a href="javascript:void(0)" class="btn">자세히 보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/promotion_slide3.jpg"
+                alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!"
+              />
+              <a href="javascript:void(0)" class="btn">자세히 보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/promotion_slide4.jpg"
+                alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!"
+              />
+              <a href="javascript:void(0)" class="btn">자세히 보기</a>
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./images/promotion_slide5.jpg"
+                alt="2021 뉴이어, 스타벅스와 함께 즐겁고 활기차게 시작하세요!"
+              />
+              <a href="javascript:void(0)" class="btn">자세히 보기</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-prev material-symbols-outlined">arrow_back</div>
+        <div class="swiper-next material-symbols-outlined">arrow_forward</div>
+      </div>
+    </section>
+
+    <!-- REWARDS -->
+    <div class="rewards">
+      <div class="bg-left"></div>
+      <div class="bg-right"></div>
+      <div class="inner">
+        <div class="btn-group">
+          <div class="btn btn--reverse sign-up">회원가입</div>
+          <div class="btn sign-in">로그인</div>
+          <div class="btn gift">e-Gift 선물하기</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- YOUTUBE VIDEO -->
+    <section class="youtube">
+      <div class="youtube__area">
+        <div id="player"></div>
+      </div>
+      <div class="youtube__cover"></div>
+    </section>
   </body>
 </html>
